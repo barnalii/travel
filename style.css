@@ -1,0 +1,619 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/taj.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    width:100%;
+    height:90px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+nav .logo{
+    width:17%;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    text-shadow: 3px 1px 1px black;
+
+}
+nav .logo img{
+    width:70px;
+    border-radius: 50px;
+    margin-left: 14px;
+    
+}
+
+nav .menu{
+    width: 40%;
+    font-family: Georgia;
+    font-weight: bold;
+    justify-content:space-around;
+    display: flex;   
+}
+nav .menu a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+nav .menu a:hover{
+    color: crimson;
+}
+
+nav .menu a:first-child{
+    color:crimson
+}
+
+main{
+    width:100%;
+    height:654px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
+
+
+section h3{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: antiquewhite;
+    text-shadow:6px 4px 4px black;
+
+}
+
+section h1{
+    font-size: 67px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    text-shadow: 6px 4px 3px black;
+ 
+}
+section p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    text-shadow: 4px 2px 2px black;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    
+}
+
+section a{
+    padding:12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+   
+}
+
+.btnone{
+        
+        background-color: beige;
+        color: black;
+        font-weight:bold;
+    
+}
+.btnone:hover{
+    background-color: crimson;
+    color: antiquewhite;
+}
+
+.btntwo{
+    
+    background-color: crimson;
+    color:antiquewhite;
+    font-weight:bold;
+}
+.btntwo:hover{
+    background-color: antiquewhite;
+    color: crimson;
+}
+
+.change_content:after{
+      content:'';
+      animation:changetext 10s infinite linear;
+      color: crimson;
+}
+
+@keyframes changetext{
+    0%{content:"DARJEELING";}
+    10%{content:"AGRA";}
+    20%{content:"JAIPUR";}
+    30%{content:"KERALA";}
+    40%{content:"KOLKATA";}
+    50%{content:"MUMBAI";}
+    60%{content:"KOCHI";}
+    70%{content:"VARANASI";}
+    80%{content:"CHENNAI";}
+    90%{content:"PATNA";}
+    100%{content:"LUCKNOW";}
+}
+
+.container
+    {
+        width:100%;
+        height:100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/taj.jpg');
+        background-repeat: no-repeat;
+        background-size:cover; 
+}
+
+.form{
+    font-size: 15px;
+    color: antiquewhite;
+    font-weight:530;
+    margin-top: 20px;
+
+}
+
+.form{
+    width:55%;
+    height:85vh;
+    background-color:transparent ;
+    margin-left: 300px;
+    padding-top: 30px;
+    margin-top: 20px;
+
+}
+
+.form h2{
+    height: 10px;
+    color:antiquewhite;
+    text-align: center;
+    margin-top: 0px;
+    font-family: Georgia;
+    font-size: 30px;
+    
+}
+form{
+    margin-top: 15px;
+    margin-left: 110px;
+    padding: 20px 20px;
+    
+}
+form .button1{
+    width: 120px;
+    height: 31px;
+    border-radius: 10px;
+    border-color:3px black;
+    background-color: antiquewhite;
+    transition: .3s linear;
+}
+form .button2{
+    width: 120px;
+    height: 31px;
+    border-radius: 10px;
+    border-color:3px black;
+    background-color: antiquewhite;
+    transition: .3s linear;
+}
+form .button1:hover{
+    background-color: crimson;
+}
+form .button2:hover{
+    background-color: crimson;
+}
+.form input{
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:3px black;
+    
+}
+::placeholder{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.btn{
+    width:250px;
+    height: 45px;
+    margin-left: 250px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius:20px;
+    transition: .3s linear;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-family: Georgia;
+    font-weight: 700;
+}
+.btn:hover{
+     background-color: crimson;
+}
+
+.service_heading{
+    width:100%;
+    height:30px;
+    text-align: center;
+    margin-top: 100px;   
+}
+.service_heading h5{
+    font-family: 'Georgia';
+    text-decoration: none;
+}
+.service_heading h3{
+    font-family:Georgia;
+    color: black;
+    text-shadow: none;
+}
+.box img{
+    width:50px;
+    height:50px;
+}
+.box p{
+   font-size: small;
+    font-family: Georgia;
+    text-shadow: none;
+    color: black;
+}
+
+.box h4{
+    font-family: Georgia;
+    font-weight: bold;
+}
+.service_box{
+    display: flex;
+    padding-top: 80px;
+    padding: 17px 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.box{
+    text-align: center;
+    background-color: white;
+    border:solid black;
+    border-radius: 20px;
+    background-clip: border-box;
+    box-shadow: 2px 3px 3px rgba(39, 32, 99, 0.9);
+    
+    
+}
+.service1_heading{
+    width:100%;
+    height:10px;
+    text-align: center;
+    margin-top: 32px;   
+}
+.service1_heading h5{
+    font-family: 'Georgia';
+    text-decoration: none;
+}
+.service1_heading h3{
+    font-family:Georgia;
+    color: black;
+    text-shadow: none;
+    font-size:medium;
+}
+.destination img{
+    width:360px;
+    height:250px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.destination p{
+    font-size: small;
+     font-family: Georgia;
+     text-shadow: none;
+     color: black;
+ }
+ .destination button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(214, 58, 89);
+    border-radius: 10px;
+    font-family:Georgia;
+    font-weight: bold;
+    transition: .3s linear;
+ }
+ .destination button:hover{
+    background-color: rgb(95, 159, 222);
+ }
+ .destination h4{
+     font-family: Georgia;
+     font-weight: bold;
+ }
+ .service1_box{
+     display: flex;
+     margin-left: 65px;
+     margin-top: 20px;
+     align-items: center;
+ }
+ .destination{
+     text-align: center;
+     background-color: white;
+     border:solid black;
+     border-radius: 20px;
+     background-clip: border-box;
+     box-shadow: 2px 3px 3px rgba(39, 32, 99, 0.9);
+ 
+ }
+ .left-container{
+    text-align: center;
+    margin-top: 110px;
+    
+ }
+ .left-content h5{
+    font-family: 'Georgia';
+    text-decoration: none;
+}
+.left-content h3{
+    font-family:Georgia;
+    color: black;
+    text-shadow: none;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.booking img{
+    width:50px;
+    height:50px;
+    margin-top: 10px;
+}
+.booking p{
+    text-shadow: none;
+    color: black;
+    font-size: 15px;
+    font-family: Georgia;
+}
+.booking h4{
+    font-family: Georgia;
+    font-weight: bold;
+}
+.left-container-icon{
+    width: 70%;
+    position: relative;
+    display: flex;
+    margin:30px auto;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.booking{
+    position: relative;
+    margin-left: 40px;
+    text-align:center;
+    background-color: white;
+    column-gap: 10px;
+    border:solid black;
+    border-radius: 20px;
+    background-clip: border-box;
+    box-shadow: 2px 3px 3px rgba(39, 32, 99, 0.9);
+}
+footer{
+    width:100%;
+    height:50vh;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+footer h2{
+    text-align: center;
+    margin: 0%;
+    margin-top: 25px;
+}
+footer p{
+    text-align: center;
+}
+footer input{
+    width: 200px;
+    height: 40px;
+    margin-left: 630px;
+    margin-top: 10px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 3px 20px -1px rgb(102, 109, 169);
+}
+footer button{
+    box-shadow: 0px 3px 20px -1px rgb(98, 85, 156);
+    padding: 13px 15px;
+    border:none;
+    outline:none;
+    font-size:12px;
+    border-radius: 0px 20px 20px 0px;
+    background: #000;
+    color: antiquewhite;
+    transition: .3s linear;
+
+}
+footer button:hover{
+    background-color: rgb(200, 75, 100);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 550px;
+}
+footer ul li{
+    text-align: center;
+    margin-right: 30px;
+    font-weight:bold;
+}
+footer ul li h6{
+       font-size: 11px;
+       font-weight: 600;
+       max-width: 120px;
+       margin: 0;
+       line-height: 10px;
+       border-top: 1px solid black;
+       padding-top: 3px;
+}
+footer p{
+    margin-top: 50px;
+}
+i{
+    color:red;
+    margin-left: 750px;
+}
+i:hover{
+    color: rgb(48, 96, 181);
+}
+.travel_book{
+    width:100%;
+        height:200vh;
+        background-color:  rgba(163, 159, 198, 0.9);
+}
+
+.travel_book form{
+        width:65%;
+        height: 20vh;
+        background-color:transparent ;
+        margin-left: 390px;
+        margin-top: -40px;
+        
+}
+.travel_book h2{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: Georgia;
+}
+.travel_book form h2{
+    padding: 5px 5px 0px 0px;
+    color:black;
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: left;
+    
+}
+.travel_book form h3{
+    text-align: center;
+}
+.travel_book form input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:3px black;
+    
+}
+
+.travel_book form p{
+    font-size: normal;
+    font-family: Georgia;
+}
+.travel_book form li{
+    font-family: Georgia;
+}
+.about{
+    width:100%;
+    height:90px;
+    margin-top: 500px;
+    
+}
+.about h2{
+margin-left: -750px;
+margin-top: 100px;
+
+}
+.about img{
+    width:200px;
+    height: 200px;
+    margin-top: -40px;
+    border-radius: 90px;
+    margin-left:-80px;
+    
+}
+.about p{
+    width:500px;
+    height: 30px;
+    text-shadow: none;
+    color: #000;
+    font-size: medium;
+    font-family: Georgia;
+    margin-left:-200px;
+    
+}
+.contact-page{
+    width:100%;
+        height:98vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/taj.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+}
+.contact-page h2{
+   text-align: center;
+   margin-top: 30px;
+   color: antiquewhite;
+}
+.contact-form{
+    margin-top: 100px;
+    color: antiquewhite;
+}
+.contact-form input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border-color:3px black;
+
+    
+}
+.contact-form textarea{
+    border-radius:10px ;
+    
+}
+.contact-form button{
+    width:250px;
+    height: 45px;
+    margin-left: 200px;
+    background-color:antiquewhite;
+    color: black;
+    border-radius:20px;
+    font-weight: bold;
+    font-size: medium;
+    transition: .3s linear;
+}
+.contact-form button:hover{
+    background-color: crimson;
+}
+.contact-info{
+    margin-top: -550px;
+    padding-left: 950px;
+    
+}
+.contact-info img
+{
+    width: 60px;
+}
+.contact-map{
+    margin-top: 45px;
+}
+
+
+
+
+@media screen and (max-width:900px){
+    .change_content{
+        font-size: 14px;
+    }
+}
+    
